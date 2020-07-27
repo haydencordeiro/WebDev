@@ -1,0 +1,65 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap");
+body {
+  background-color: #d7e3ed;
+  color: black;
+  /* font-family: "Roboto", sans-serif;
+   */
+
+  font-family: "Rowdies", cursive;
+}
+header {
+  display: flex;
+  background-color: #242529;
+  color: white;
+  justify-content: space-between;
+  box-shadow: 5px 10px 5px #a2b9c1;
+}
+
+.unorderd-list {
+  /* background-color: yellow; */
+  /* margin-top: 1em; */
+  padding: 1em;
+  margin-right: 2em;
+  list-style: none;
+  display: flex;
+}
+
+.logo {
+  /* margin-left: 2em; */
+  font-weight: bolder;
+  padding-left: 1em;
+  font-style: bold;
+}
+
+.pagenav {
+  font-size: large;
+  padding-left: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.contactbutton {
+  margin-left: 1em;
+  margin-right: 1em;
+  /* padding-left: 10px; */
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-family: "Rowdies", cursive;
+  color: white;
+  font-size: 1.2em;
+  background-color: #048aa8;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border: 0;
+}
+/* 
+.contactdiv {
+  margin-top: 0em;
+  padding-left: 0em;
+  margin: 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: blue;
+} */
