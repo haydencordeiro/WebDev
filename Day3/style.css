@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #d8d8d8;
+  height: 100000px;
+}
+
+.header {
+  background-color: white;
+  height: 5.5em;
+  /* height: 100px;
+  width: 100px; */
+}
+.logo {
+  position: absolute;
+  right: 45%;
+  height: 3em;
+  padding-top: 1.5em;
+  width: 9em;
+}
+
+.ULD {
+  position: relative;
+  height: 2.8em;
+  background-color: white;
+
+  /* background-color: red; */
+}
+.UL {
+  position: absolute;
+  right: 43%;
+  top: 23%;
+  display: flex;
+  list-style: none;
+}
+
+.LI {
+  padding-left: 1em;
+  font-size: larger;
+}
+#navhr {
+  border-color: grey;
+}
+.selected {
+  color: #4fb5da;
+}
